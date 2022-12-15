@@ -53,9 +53,11 @@ Pacotes Utilizados:
 
 ### Arquitetura MVC
 
-'''
+
 
 PROJETO_FINAL   |
+
+```
    |-  📁 src
    |    |- 📁 config
    |         |- 📑 database.js
@@ -91,9 +93,13 @@ PROJETO_FINAL   |
    |- 📑 server.js
    |- 📑 vercel.json
 
-'''
 
+```
 ### Utilização da API
+1º Passo - Clonar o respositório
+Clone este projeto para a sua máquina local.
+
+git clone https://github.com/Andressavilela/projeto-final-Andressa
 
 
 
