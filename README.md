@@ -51,8 +51,51 @@ Pacotes Utilizados:
 
 *[ bcrypt](https://www.npmjs.com/package/bcrypt)
 
+### Arquitetura MVC
+
+'''
+
+PROJETO_FINAL   |
+   |-  📁 src
+   |    |- 📁 config
+   |         |- 📑 database.js
+   |    |- 📁 controllers
+   |         |- 📑 authController.js
+   |         |- 📑 emprendoresController.js
+   |         |- 📑 produtosController.js
+   |         |- 📑 userController.js   |
+   |
+   |    |  - 📁 middlewares
+   |         |- 📑 auth.js
+   |
+   |    |  - 📁 models
+   |         |- 📑 empreendedoresSchema.js
+   |         |- 📑 produtosSchema.js
+   |         |- 📑 userSchema.js
+   |
+   |    |  - 📁 routes
+   |         |- 📑 emprendedoresRoutes.js
+   |         |- 📑 indexRoutes.js
+   |         |- 📑 produtosRoutes.js
+   |         |- 📑 userRoutes.js
+   | 
+   |    |- 📑 app.js   |
+   |
+   |
+   |- 📑 .env
+   |- 📑 .env.example
+   |- 📑 .gitignore
+   |- 📑 package-lock.json
+   |- 📑 package.json
+   |- 📑 README.md
+   |- 📑 server.js
+   |- 📑 vercel.json
+
+'''
 
 ### Utilização da API
+
+
 
 ### Mapeamento das rotas
 
