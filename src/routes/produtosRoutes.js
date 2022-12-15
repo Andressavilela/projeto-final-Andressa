@@ -3,9 +3,6 @@ const router = express.Router();
 
 const produtosController = require("../controllers/produtosController");
 const { checkAuth } = require("../middlewares/auth");
-const authController = require("../controllers/authController");
-
-
 
 router.post("/cadastro", produtosController.criarCadastroProdutos);
 router.get("/todos", produtosController.buscarTodosProdutos);

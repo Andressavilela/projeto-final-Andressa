@@ -3,9 +3,6 @@ const router = express.Router();
 
 const emprendedoresController = require("../controllers/emprendedoresController");
 const { checkAuth } = require("../middlewares/auth");
-const authController = require("../controllers/authController");
-
-
 
 router.post("/cadastro", emprendedoresController.criarCadastroEmpreendedores);
 router.get("/todos", emprendedoresController.buscarTodosEmprendedores);
