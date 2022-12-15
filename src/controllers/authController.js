@@ -1,4 +1,4 @@
-const UserSchema = require('../models/UserSchema'); // importou a model
+const UserSchema = require("../models/UserSchema"); // importou a model
 const bcrypt = require('bcrypt'); // importou o bcrypt para criptografar a senha
 const jwt = require('jsonwebtoken'); // importou o jwt para gerar o token
 

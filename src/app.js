@@ -3,9 +3,9 @@ const express = require("express")
 const cors = require("cors")
 const database = require("./config/database")
 const indexRouter = require("./routes/indexRoutes")
-const userRoutes = require('./routes/userRoutes')
-const produtosRoutes = require('./routes/produtosRoutes')
-const emprendedoresRoutes = require('./routes/emprendedoresRoutes')
+const userRoutes = require("./routes/userRoutes")
+const produtosRoutes = require("./routes/produtosRoutes")
+const emprendedoresRoutes = require("./routes/emprendedoresRoutes")
 
 const app = express()
 

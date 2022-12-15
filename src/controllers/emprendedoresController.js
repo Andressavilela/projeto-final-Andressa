@@ -1,4 +1,4 @@
-const emprendedoresSchema = require('../models/emprendedoresSchema');
+const emprendedoresSchema = require("../models/emprendedoresSchema");
 const mongoose = require("mongoose");
 
 const criarCadastroEmpreendedores = async (req, res) => {

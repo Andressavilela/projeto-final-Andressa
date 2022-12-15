@@ -1,4 +1,4 @@
-const produtosSchema = require('../models/produtosSchema');
+const produtosSchema = require("../models/produtosSchema");
 const mongoose = require("mongoose");
 
 const criarCadastroProdutos = async (req, res) => {
