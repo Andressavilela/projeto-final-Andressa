@@ -19,7 +19,15 @@ atualização ou exclusão de usuários, produtos ou emprendedores Center Kids.A
 ou não o acesso de informações que estarão no sistema.
 
 ### Tecnologias e pacotes utilizados no projeto:
-*[ JavaScript](#https://www.javascript.com/)
+*[ JavaScript](https://www.javascript.com/)
+*[ Git/Github](https://github.com/)
+*[ Node.js](https://nodejs.org/en/)
+*[ MongoDb](https://www.mongodb.com/)
+*[ MongoDBatlas](https://www.mongodb.com/atlas/database)
+*[ Insomnia](https://insomnia.rest/)
+*[ Vscode](https://code.visualstudio.com/)
+*[ Vercel](https://vercel.com/)
+
 
 ### Utilização da API
 
