@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-
 const SECRET = process.env.SECRET;
 
 exports.checkAuth = (req, res, next) => {
