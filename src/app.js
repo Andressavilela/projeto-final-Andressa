@@ -7,7 +7,6 @@ const userRoutes = require('./routes/userRoutes')
 const produtosRoutes = require('./routes/produtosRoutes')
 const emprendedoresRoutes = require('./routes/emprendedoresRoutes')
 
-
 const app = express()
 
 app.use(express.json())
