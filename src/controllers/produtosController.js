@@ -91,7 +91,9 @@ const buscarTodosProdutos = async (req, res) => {
 
 const atualizarProdutos = async (req, res) => {
 
-
+const {
+    usuario, telefone, produtos_desapego, tamanho, genero, descricao
+} = req.body
     try {
         const encontraPorId = await produtosSchema.findById(req.params.id)
         if (!encontraPorId) {
