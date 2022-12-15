@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const empreendedoresSchema = mongoose.Schema({
     id: mongoose.Schema.Types.ObjectId,
-    nome: {
+    empresa: {
         type: String,
         required: true,
     },

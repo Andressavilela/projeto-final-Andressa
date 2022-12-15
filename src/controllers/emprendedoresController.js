@@ -2,11 +2,11 @@ const emprendedoresSchema = require('../models/emprendedoresSchema');
 const mongoose = require("mongoose");
 
 const criarCadastroEmpreendedores = async (req, res) => {
-    const { nome, telefone, endereco, bairro, servicos, categoria } = req.body
+    const { empresa, telefone, endereco, bairro, servicos, categoria } = req.body
 
-    if (!nome) {
+    if (!empresa) {
         return res.status(400).send({
-            message: "Nome necessário para cadastro."
+            message: "Nome da empresa necessário para cadastro."
         })
     }
 
@@ -49,7 +49,7 @@ const criarCadastroEmpreendedores = async (req, res) => {
         }
 
         const cadastro = new emprendedoresSchema({
-            nome: nome,
+            empresa: empresa,
             telefone: telefone,
             endereco: endereco,
             bairro: bairro,
@@ -109,7 +109,7 @@ const buscarTodosEmprendedores = async (req, res) => {
 
 const atualizarEmprendedores = async (req, res) => {
 
-    const { nome, telefone, endereco, bairro, servicos, categoria } = req.body
+    const { empresa, telefone, endereco, bairro, servicos, categoria } = req.body
 
     try {
         const encontraPorId = await emprendedoresSchema.findById(req.params.id)
@@ -119,7 +119,7 @@ const atualizarEmprendedores = async (req, res) => {
             })
         }
 
-        encontraPorId.nome = nome || encontraPorId.nome
+        encontraPorId.empresa = empresa || encontraPorId.empresa
         encontraPorId.telefone = telefone || encontraPorId.telefone
         encontraPorId.endereco = endereco || encontraPorId.endereco
         encontraPorId.bairro = bairro || encontraPorId.bairro

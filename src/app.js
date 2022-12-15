@@ -21,6 +21,4 @@ app.use("/users", userRoutes);
 app.use("/produtos", produtosRoutes);
 app.use("/emprendedores", emprendedoresRoutes);
 
-
-
 module.exports = app

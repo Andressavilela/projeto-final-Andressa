@@ -2,15 +2,6 @@ const mongoose = require("mongoose");
 const UserSchema = require('../models/UserSchema');
 const bcrypt = require("bcrypt");
 
-const getAll = async (req, res) => {
-  UserSchema.find(function (err, users) {
-    if (err) {
-      res.status(500).send({ message: err.message })
-    }
-    res.status(200).send(users)
-  })
-}
-
 const createUser = async (req, res) => {
 
   const hashedPassword = bcrypt.hashSync(req.body.password, 10)
@@ -41,6 +32,14 @@ const createUser = async (req, res) => {
   }
 }
 
+const getAll = async (req, res) => {
+  UserSchema.find(function (err, users) {
+    if (err) {
+      res.status(500).send({ message: err.message })
+    }
+    res.status(200).send(users)
+  })
+}
 
 const buscarUsuarioPorId = async (req, res) => {
 

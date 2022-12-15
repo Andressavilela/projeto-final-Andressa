@@ -2,11 +2,11 @@ const produtosSchema = require('../models/produtosSchema');
 const mongoose = require("mongoose");
 
 const criarCadastroProdutos = async (req, res) => {
-    const { nome, telefone, produtos_desapego, tamanho, genero, descricao } = req.body
+    const { usuario, telefone, produtos_desapego, tamanho, genero, descricao } = req.body
 
-    if (!nome) {
+    if (!usuario) {
         return res.status(400).send({
-            message: "Nome necessário para cadastro de produtos"
+            message: "Usuário necessário para cadastro de produtos"
         })
     }
 
@@ -27,11 +27,11 @@ const criarCadastroProdutos = async (req, res) => {
         const buscarTelefone = await produtosSchema.find({ telefone })
 
         if (buscarTelefone.length !== 0) {
-            return res.status(400).json({ Cadastro_desapegos: `Número de telefone já cadastrado!` });
+            return res.status(400).json({ Cadastro_desapegos: `Número já cadastrado!` });
         }
 
         const cadastro = new produtosSchema({
-            nome: nome,
+            usuario: usuario,
             telefone: telefone,
             produtos_desapego: produtos_desapego,
             tamanho: tamanho,
@@ -91,7 +91,6 @@ const buscarTodosProdutos = async (req, res) => {
 
 const atualizarProdutos = async (req, res) => {
 
-    const { nome, telefone, produtos_desapego, tamanho, genero, descricao } = req.body
 
     try {
         const encontraPorId = await produtosSchema.findById(req.params.id)
@@ -101,7 +100,7 @@ const atualizarProdutos = async (req, res) => {
             })
         }
 
-        encontraPorId.nome = nome || encontraPorId.nome
+        encontraPorId.usuario = usuario || encontraPorId.usuario
         encontraPorId.telefone = telefone || encontraPorId.telefone
         encontraPorId.produtos_desapego = produtos_desapego || encontraPorId.produtos_desapego
         encontraPorId.tamanho = tamanho || encontraPorId.tamanho
