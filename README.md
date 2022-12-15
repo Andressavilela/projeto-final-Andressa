@@ -95,16 +95,36 @@ PROJETO_FINAL   |
 
 
 ```
-### Utilização da API
-1º Passo - Clonar o respositório
+## Utilização da API
+### 1º Passo - Clonar o respositório
 Clone este projeto para a sua máquina local.
 
-git clone https://github.com/Andressavilela/projeto-final-Andressa
+``` git clone https://github.com/Andressavilela/projeto-final-Andressa```
 
+### 2º Passo - Instalar as dependências
+Para instalar as dependências do projeto, digite o comando no terminal:
 
+``` npm i ```
+### 3º Passo - Configurar o ambiente
+Para configurar o ambiente é necessário duplicar o arquivo .env.example e renomea-lo somente para .env.
+Em seguida, altere as informações contidas no arquivo .env para as informações correspondentes a sua máquina e e inclua os valores para o DATABASE_URL com a URL do MongoDb e SECRET com o secret.
+
+### 4º Passo - Executar a aplicação
+Com a aplicação clonada e as dependências configuradas basta rodar a aplicação com o comando no terminal:
+
+``` npm start ``` 
 
 ### Mapeamento das rotas
 
 ### Futuras melhorias
 
-### Sobre a autora
+* Implementação dos testes em todas as rotas.
+* Implementação do front-end.
+
+
+### 👨‍💻 Sobre a Autora
+
+
+
+*[LinkedIn](https://www.linkedin.com/in/andressavsantos/)
+
