@@ -9,8 +9,8 @@
 
 ## Projeto final {Reprograma} Todas em Tech Back-end
 
-Central Kids é uma API com o objetivo de reunir produtos ou serviços ofertados famílias que queiram comprar, trocar ou desapegar de produtos infantis,  
-além de dar a opção para que famílias emprendedoras também divulguem serviços ou produtos.
+Central Kids é uma API com o objetivo de reunir produtos ou serviços ofertados às famílias que queiram comprar, trocar ou desapegar de produtos infantis,  
+além de dar a opção para que famílias empreendedoras também divulguem serviços ou produtos.
 
 
 ### Introdução e objetivo
