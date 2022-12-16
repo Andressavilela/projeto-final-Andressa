@@ -1,3 +1,12 @@
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Andressavilela/projeto-final-Andressa/blob/main/central%20-%20kids.png">
+</p>
+
+
+
+
+
 ## Projeto final {Reprograma} Todas em Tech Back-end
 
 Center Kids é uma API com o objetivo de reunir produtos ou serviços ofertados famílias que queiram comprar, trocar ou desapegar de produtos infantis,  
