@@ -53,7 +53,7 @@ Pacotes Utilizados:
 
 ### Arquitetura MVC
 
-PROJETO_FINAL   |
+PROJETO-FINAL   |
 
 ```
    |-  📁 src
@@ -114,39 +114,47 @@ Com a aplicação clonada e as dependências configuradas basta rodar a aplicaç
 
 ### Mapeamento das rotas
 
-Método HTTP	Endpoint	Descrição
-GET	/	Mensagem de apresentação.
-POST	/users/register	Faz o cadastro da usuária.
-POST	/users/login	Faz o login da usuária.
-PUT	/users/update/:id	Faz o update do email e senha da usuária.
-DELETE	/users/delete/:id	Deleta a usuária.
-Método HTTP	Endpoint	Descrição
-POST	/student/create	Cria perfil da estudante.
-GET	/student/all	Lista todas as estudantes.
-GET	/student/filterName	Lista estudantes por nome.
-GET	/students/filterUniversity	Lista estudantes por universidade.
-GET	/students/filterDonation	Lista estudantes por tipo de doação.
-GET	/students/filterById/:id	Lista a estudante pelo id.
-PUT	/update/:id	Faz o update do cadastro da estudante.
-DELETE	/delete/:id	Deleta o cadastro da estudante.
-Método HTTP	Endpoint	Descrição
-POST	/donation/create	Cria uma doação conectada ao perfil de uma estudante.
-GET	/donation/all	Lista todas as doações.
-GET	/donation/filterDescription	Lista as doações pela descrição.
-GET	/donation/filterObject	Lista as doações por objeto.
-GET	/donation/filterById/:id	Lista a doação pelo id.
-PUT	/update/:id	Faz o update da doação.
-DELETE	/delete/:id	Deleta a doação.
+| <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p>    | <p align="center">Usuário  </p>    |
+| ------------------------ | ---------------------------- | ------------------------------------------ |
+| <p align="center">POST </p>         | <p align="center">`/users/create`   </p>      | <p align="center">Cadastro de usuários  </p>          |
+| <p align="center">POST  </p>        |<p align="center"> `/users/login`</p>         | <p align="center">Faz o login do usuário</p>          |
+| <p align="center">GET  </p>        | <p align="center">`/users/all`</p>         | <p align="center">Lista todos os usuários</p>          |
+| <p align="center">GET  </p>      | <p align="center">`/users/all`</p>     | <p align="center">Lista todos usuários por ID </p>  |
+| <p align="center">DELETE  </p>     |<p align="center"> `/users/:id` </p>        | <p align="center">Deleta o usuário. </p>
 
-### Futuras melhorias
+
+#### Método HTTP	Endpoint	Produtos
+
+| <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p>    | <p align="center">Produtos  </p>    |
+| ------------------------ | ---------------------------- | ------------------------------------------ |
+| <p align="center">POST </p>         | <p align="center">`/produtos/cadastro` </p> |  <p align="center">Cria um perfil para cadastrar informações dos produtos  </p>
+| <p align="center">GET  </p>        |<p align="center"> `/produtos/todos`</p>         | <p align="center">Lista todos os produtos disponíveis</p>          |
+| <p align="center">GET  </p>        | <p align="center">`/produtos/todos/:id`</p>         | <p align="center">Lista todos os produtos por ID</p>  
+| <p align="center">PATCH  </p>        | <p align="center">`/produtos/:id`</p>         | <p align="center">Faz o update de produtos</p> |
+| <p align="center">DELETE  </p>     |<p align="center"> `/produtos/:id` </p>        | <p align="center">Deleta o cadastro de produtos. </p>
+
+#### Método HTTP	Endpoint	Emprendedores
+
+| <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p> | <p align="center">Emprendedores  </p>    |
+| ------------------------ | ---------------------------- | ------------------------------------------ |
+| <p align="center">POST </p>  | <p align="center">`/emprendedores/cadastro`   </p> | <p align="center">Cria um perfil para cadastrar informações dos emprendedores/p>
+| <p align="center">GET  </p>    |<p align="center"> `/emprendedores/todos`</p>         | <p align="center">Lista todas os emprendores disponíveis</p>          |
+| <p align="center">GET  </p>    | <p align="center">`/emprendedores/todos/:id`</p>         | <p align="center">Lista todos emprendedores por ID</p>  
+| <p align="center">PATCH  </p>  | <p align="center">`/emprendedores/:id`</p>         | <p align="center">Faz o update de emprendedores</p> |
+| <p align="center">DELETE  </p> |<p align="center"> `/emprendedores/:id` </p>        | <p align="center">Deleta o cadastro de emprendores </p>
+
+
+## Futuras melhorias
 
 * Implementação dos testes em todas as rotas.
 * Implementação do front-end.
+* Implementação de filtros de pesquisa de produtos e emprendedores.
 
 
-### 👨‍💻 Sobre a Autora
+## Sobre a Autora
 
-
+Andressa Vilela, bacharel em Nutrição e em transição de carreira para a área tech.
 
 *[LinkedIn](https://www.linkedin.com/in/andressavsantos/)
 
+*[GitHub](https://github.com/Andressavilela)
