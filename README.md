@@ -146,9 +146,9 @@ Com a aplicação clonada e as dependências configuradas basta rodar a aplicaç
 | <p align="center">PATCH  </p>        | <p align="center">`/produtos/:id`</p>         | <p align="center">Faz o update de produtos</p> |
 | <p align="center">DELETE  </p>     |<p align="center"> `/produtos/:id` </p>        | <p align="center">Deleta o cadastro de produtos. </p>
 
-#### Método HTTP	Endpoint	Emprendedores
+#### Método HTTP	Endpoint	Empreendedores
 
-| <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p> | <p align="center">Emprendedores  </p>    |
+| <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p> | <p align="center">Empreendedores  </p>    |
 | ------------------------ | ---------------------------- | ------------------------------------------ |
 | <p align="center">POST </p>  | <p align="center">`/emprendedores/cadastro`   </p> | <p align="center">Cria um perfil para cadastrar informações dos emprendedores/p>
 | <p align="center">GET  </p>    |<p align="center"> `/emprendedores/todos`</p>         | <p align="center">Lista todas os emprendores disponíveis</p>          |
