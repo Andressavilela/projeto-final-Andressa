@@ -1,26 +1,22 @@
-  <p align="center">
-  <img width="460" height="300" src="https://github.com/Andressavilela/projeto-final-Andressa/blob/main/central%20-%20kids.png">
-</p>
+## Projeto final {Reprograma} Todas em Tech Back-end
 
-### <h3 align="center"> Projeto final {Reprograma} Todas em Tech Back-end</h3>
-
-Center Kids é uma API com o objetivo de reunir produtos ou serviços ofertados para famílias que queiram comprar, trocar ou desapegar de produtos infantis.   
-Além de dar a opção para que famílias emprendedoras também divulguem seus serviços ou produtos.
+Center Kids é uma API com o objetivo de reunir produtos ou serviços ofertados famílias que queiram comprar, trocar ou desapegar de produtos infantis,  
+além de dar a opção para que famílias emprendedoras também divulguem serviços ou produtos.
 
 
 ### Introdução e objetivo
 
 Os bebês e as crianças crescem rápido, as roupas e acessórios muitas vezes tem um tempo de utilização curto. 
-A ideia desse projeto surgiu por uma necessidade pessoal, e também com a convivência e diálogo com outras mães e famílias.
+A ideia desse projeto surgiu por uma necessidade pessoal, e também com a convivência e diálogo com outras famílias.
 
 Muitas vezes, um objeto que nunca foi usado ou que não serve mais para seu filho pode ser divulgado para que outros usuários tenham interesse. 
-O usuário pode comprar e/ou vender produtos de todas categorias infantis.
+O usuário pode comprar e/ou vender produtos de categoria infantil.
 
-Além de permitir que fornecedores de serviços infantis como: escolas, decoradores de festa, costureira, cuidadoras, confeiteira, transporte escolar entre outros, façam seu cadastro e disponibilizem informações sobre seus serviços.
+Além de permitir que fornecedores de serviços infantis como: escolas, decoradores de festa, costureira, cuidadoras, confeiteira, transporte escolar entre outros.
 
 A API é um Projeto do bootcamp Back-end da {Reprograma}, como forma de avaliação final, utilizando Javascript para criar um CRUD de busca, cadastro, 
-atualização ou exclusão de usuários, produtos ou emprendedores Center Kids.
-Algumas funcionalidades passam por uma autenticação, gerando um token que permite ou não o acesso de informações que estarão no sistema.
+atualização ou exclusão de usuários, produtos ou emprendedores Center Kids.Algumas funcionalidades passam por uma autenticação, gerando um token que permite
+ou não o acesso de informações que estarão no sistema.
 
 ### Tecnologias e pacotes utilizados no projeto:
 *[ JavaScript](https://www.javascript.com/)
@@ -115,6 +111,10 @@ Em seguida, altere as informações contidas no arquivo .env para as informaçõ
 Com a aplicação clonada e as dependências configuradas basta rodar a aplicação com o comando no terminal:
 
 ``` npm start ``` 
+
+### Link Vercel
+[Projeto-Final-Andressa ](https://projeto-final-andressa.vercel.app/)
+
 
 ### Mapeamento das rotas
 
