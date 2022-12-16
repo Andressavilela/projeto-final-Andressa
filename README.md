@@ -53,8 +53,6 @@ Pacotes Utilizados:
 
 ### Arquitetura MVC
 
-
-
 PROJETO_FINAL   |
 
 ```
@@ -115,6 +113,30 @@ Com a aplicação clonada e as dependências configuradas basta rodar a aplicaç
 ``` npm start ``` 
 
 ### Mapeamento das rotas
+
+Método HTTP	Endpoint	Descrição
+GET	/	Mensagem de apresentação.
+POST	/users/register	Faz o cadastro da usuária.
+POST	/users/login	Faz o login da usuária.
+PUT	/users/update/:id	Faz o update do email e senha da usuária.
+DELETE	/users/delete/:id	Deleta a usuária.
+Método HTTP	Endpoint	Descrição
+POST	/student/create	Cria perfil da estudante.
+GET	/student/all	Lista todas as estudantes.
+GET	/student/filterName	Lista estudantes por nome.
+GET	/students/filterUniversity	Lista estudantes por universidade.
+GET	/students/filterDonation	Lista estudantes por tipo de doação.
+GET	/students/filterById/:id	Lista a estudante pelo id.
+PUT	/update/:id	Faz o update do cadastro da estudante.
+DELETE	/delete/:id	Deleta o cadastro da estudante.
+Método HTTP	Endpoint	Descrição
+POST	/donation/create	Cria uma doação conectada ao perfil de uma estudante.
+GET	/donation/all	Lista todas as doações.
+GET	/donation/filterDescription	Lista as doações pela descrição.
+GET	/donation/filterObject	Lista as doações por objeto.
+GET	/donation/filterById/:id	Lista a doação pelo id.
+PUT	/update/:id	Faz o update da doação.
+DELETE	/delete/:id	Deleta a doação.
 
 ### Futuras melhorias
 
