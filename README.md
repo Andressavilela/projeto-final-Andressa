@@ -150,11 +150,11 @@ Com a aplicação clonada e as dependências configuradas basta rodar a aplicaç
 
 | <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p> | <p align="center">Empreendedores  </p>    |
 | ------------------------ | ---------------------------- | ------------------------------------------ |
-| <p align="center">POST </p>  | <p align="center">`/emprendedores/cadastro`   </p> | <p align="center">Cria um perfil para cadastrar informações dos emprendedores/p>
-| <p align="center">GET  </p>    |<p align="center"> `/emprendedores/todos`</p>         | <p align="center">Lista todas os emprendores disponíveis</p>          |
-| <p align="center">GET  </p>    | <p align="center">`/emprendedores/todos/:id`</p>         | <p align="center">Lista todos emprendedores por ID</p>  
-| <p align="center">PATCH  </p>  | <p align="center">`/emprendedores/:id`</p>         | <p align="center">Faz o update de emprendedores</p> |
-| <p align="center">DELETE  </p> |<p align="center"> `/emprendedores/:id` </p>        | <p align="center">Deleta o cadastro de emprendores </p>
+| <p align="center">POST </p>  | <p align="center">`/emprendedores/cadastro`   </p> | <p align="center">Cria um perfil para cadastrar informações dos empreendedores/p>
+| <p align="center">GET  </p>    |<p align="center"> `/emprendedores/todos`</p>         | <p align="center">Lista todas os empreendores disponíveis</p>          |
+| <p align="center">GET  </p>    | <p align="center">`/emprendedores/todos/:id`</p>         | <p align="center">Lista todos empreendedores por ID</p>  
+| <p align="center">PATCH  </p>  | <p align="center">`/emprendedores/:id`</p>         | <p align="center">Faz o update de empreendedores</p> |
+| <p align="center">DELETE  </p> |<p align="center"> `/emprendedores/:id` </p>        | <p align="center">Deleta o cadastro de empreendores </p>
 
 
 ## Futuras melhorias
