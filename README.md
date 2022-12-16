@@ -125,7 +125,7 @@ Com a aplicação clonada e as dependências configuradas basta rodar a aplicaç
 [Projeto-Final-Andressa ](https://projeto-final-andressa.vercel.app/)
 
 
-### Mapeamento das rotas
+### Mapeamento das rotas Usuários
 
 | <p align="center">Método HTTP </p>  |<p align="center"> Endpoint    </p>    | <p align="center">Usuário  </p>    |
 | ------------------------ | ---------------------------- | ------------------------------------------ |
