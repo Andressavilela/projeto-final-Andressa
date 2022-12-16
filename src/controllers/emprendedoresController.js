@@ -129,8 +129,8 @@ const atualizarEmprendedores = async (req, res) => {
         const cadastroAtualizado = await encontraPorId.save()
 
         res.status(200).json({
-            message: "Projeto atualizado com sucesso!",
-            projeto: cadastroAtualizado
+            message: "cadastro atualizado com sucesso!",
+            cadastro: cadastroAtualizado
         })
     } catch (error) {
         res.status(500).send({

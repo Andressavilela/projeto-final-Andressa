@@ -109,11 +109,11 @@ const {
         encontraPorId.genero = genero || encontraPorId.genero
         encontraPorId.descricao = descricao || encontraPorId.descricao
 
-        const projetoAtualizado = await encontraPorId.save()
+        const produtoAtualizado = await encontraPorId.save()
 
         res.status(200).json({
-            message: "Projeto atualizado com sucesso!",
-            projeto: projetoAtualizado
+            message: "Produto atualizado com sucesso!",
+            produto: produtoAtualizado
         })
     } catch (error) {
         res.status(500).send({

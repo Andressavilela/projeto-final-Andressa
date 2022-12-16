@@ -41,7 +41,7 @@ const getAll = async (req, res) => {
   })
 }
 
-const buscarUsuarioPorId = async (req, res) => {
+const findUserById = async (req, res) => {
 
   try {
     const users = await UserSchema.findById(req.params.id)
@@ -56,15 +56,15 @@ const buscarUsuarioPorId = async (req, res) => {
 
 const deleteUser = async (req, res) => {
   try {
-    const buscarUsuarioPorId = await UserSchema.findById(req.params.id)
+    const findUserById = await UserSchema.findById(req.params.id)
 
-    if (!buscarUsuarioPorId) {
+    if (!findUserById) {
       return res.status(404).send({
         message: "Nenhum cadastro encontrado para o usuário buscado"
       })
     }
 
-    await buscarUsuarioPorId.delete()
+    await findUserById.delete()
 
     res.status(200).send({
       message: "Cadastro removido"
@@ -81,6 +81,6 @@ const deleteUser = async (req, res) => {
 module.exports = {
   getAll,
   createUser,
-  buscarUsuarioPorId,
+  findUserById,
   deleteUser
 }
