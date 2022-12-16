@@ -2,7 +2,7 @@
   <img width="460" height="300" src="https://github.com/Andressavilela/projeto-final-Andressa/blob/main/central%20-%20kids.png">
 </p>
 
-## <h3 align="center"> Projeto final {Reprograma} Todas em Tech Back-end</h3>
+### <h3 align="center"> Projeto final {Reprograma} Todas em Tech Back-end</h3>
 
 Center Kids é uma API com o objetivo de reunir produtos ou serviços ofertados para famílias que queiram comprar, trocar ou desapegar de produtos infantis.   
 Além de dar a opção para que famílias emprendedoras também divulguem seus serviços ou produtos.
